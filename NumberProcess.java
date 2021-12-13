@@ -12,6 +12,10 @@ public class NumberProcess {
         romanMap.put(5, "V");
         romanMap.put(9, "IX");
         romanMap.put(10, "X");
+        romanMap.put(40, "XL");
+        romanMap.put(50, "L");
+        romanMap.put(90, "XC");
+        romanMap.put(100, "C");
     }
 
     protected Number createNumber(String str) throws Exception {
